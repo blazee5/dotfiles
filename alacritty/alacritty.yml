@@ -1,0 +1,62 @@
+colors:
+  primary:
+    background: "#1a1e25"
+    #'#312d38'
+    foreground: "#eff0eb"
+  cursor:
+    text: CellBackground
+    cursor: "#44bc3e"
+  selection:
+    text: "#63d15e"
+    background: "#0d0c0e"
+    save_to_clipboard: true
+
+  normal:
+    black: "#282a36"
+    red: "#ff5c57"
+    green: "#5af78e"
+    yellow: "#f3f99d"
+    blue: "#00b1f7"
+    magenta: "#ff6ac1"
+    cyan: "#9aedfe"
+    white: "#f1f1f0"
+
+  bright:
+    black: "#686868"
+    red: "#ff2121"
+    green: "#5af78e"
+    yellow: "#f3f99d"
+    blue: "#1c8be9"
+    magenta: "#FF55FF"
+    cyan: "#61afef"
+    white: "#eff0eb"
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+  bold:
+    family: JetBrainsMono Nerd Font
+  size: 8
+
+window:
+  opacity: 0.8
+  padding:
+    x: 12
+    y: 12
+
+cursor:
+  style:
+    shape: Block
+
+env:
+  TERM: xterm-256color
+
+scrolling:
+  history: 4000
+  auto_scroll: true
+
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+
+draw_bold_text_with_bright_colors: true
